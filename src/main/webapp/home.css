@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gap-container {
+    margin-top: 50px;
+}
+
+
+.section-container {
+    margin-bottom: 20px;
+     
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+     position: relative;
+    
+}
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.location-dropdown {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+.home-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+             text-align: center; / /* Adjust to desired height */
+        }
+        .home-container img {
+            width: 200;
+            height:200; /* Ensure image does not exceed container width */
+            margin-bottom: 20px; /* Adjust margin as needed */
+        }
+        .home-container p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+.section-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style for section dividers */
+.section-divider {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    height: 5px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-container div {
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ .zoomable-image {
+        transition: transform 0.2s ease;
+    }
+    .zoomable-image:hover {
+        transform: scale(1.1);
+    }
+
+.service-name {
+    margin-top: 5px;
+    font-size: 16px;
+}

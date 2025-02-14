@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<content>
+    <section title="Company">
+        <link title="About us" url="about_us.jsp" />
+        <link title="Terms &amp; conditions" url="terms.jsp" />
+        <link title="Privacy policy" url="privacy_policy.jsp" />
+        <link title="Anti-discrimination policy" url="anti_discrimination_policy.jsp" />
+        <link title="UC impact" url="uc_impact.jsp" />
+        <link title="Careers" url="careers.jsp" />
+    </section>
+    <section title="For customers">
+        <link title="UC reviews" url="uc_reviews.jsp" />
+        <link title="Categories near you" url="categories_near_you.jsp" />
+        <link title="Blog" url="blog.jsp" />
+        <link title="Contact us" url="contact_us.jsp" />
+    </section>
+    <section title="For partners">
+        <link title="Register as a prof" url="register_prof.jsp" />
+    </section>
+</content>

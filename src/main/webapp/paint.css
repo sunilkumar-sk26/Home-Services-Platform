@@ -1,0 +1,100 @@
+.main-content {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Add space between the sections */
+    padding-top: 80px;
+}
+
+.left-section {
+    flex: 1; /* Take up equal width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.center-section {
+    flex: 2; /* Take up double width */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.available-services {
+    height: 400px; /* Adjust height as needed */
+    overflow-y: auto;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+    padding: 10px; /* Enable vertical scrolling */
+}
+
+.service {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    padding: 10px;
+}
+
+.service img {
+    width: 150px; /* Set width to 150 pixels */
+    height: 150px; /* Set height to 150 pixels */
+    border-radius: 5px;
+    margin-right: 90px;
+}
+
+.service-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.service button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.quantity-container label {
+  margin-right: 10px; /* Adjust spacing between label and input */
+}
+
+.quantity-container input[type="number"] {
+  width: 80px !important; /* Adjust the width as needed */
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-container button {
+    margin-right: 10px;
+}
+
+
+.right-section {
+    flex: 1; /* Take up equal width */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Style for shopping cart */
+#cart {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 100px;
+    text-align: center; /* Center the content */
+}

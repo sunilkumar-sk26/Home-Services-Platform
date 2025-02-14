@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+        font-family: Arial, sans-serif;
+        margin: 20px; /* Add margin to the body */
+    }
+    
+ .header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #031f66; /* Set the background color as needed */
+    z-index: 1000; /* Ensure the header is above other content */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.logo img {
+    height: 50px; /* Set the height of the logo as needed */
+}
+
+h1 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 0;
+     color: #fff; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Set the color of menu items */
+}
+ 
+ 
+ 
+    .container {
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        margin-top: 80px; /* Add margin to the top of the container */
+    }
